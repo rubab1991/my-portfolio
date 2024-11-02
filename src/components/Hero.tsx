@@ -1,4 +1,4 @@
-{/* eslint-disable-next-line react/no-unescaped-entities */}
+
 
 
 import Image from "next/image";
@@ -20,9 +20,9 @@ export default function Hero() {
         {/* Right Side Text */}
         <div className="ml-6" data-aos="fade-up-right">
           <p className="text-4xl md:text-8xl font-serif font-extrabold text-white">I am Rubab Bukhari</p>
-          
+          {/* eslint-disable-next-line react/no-unescaped-entities */}
           <p className="text-lg md:text-xl font-semibold mt-4 text-white">
-            I'm a frontend developer passionate about creating clean, responsive, and user-friendly web applications.
+            I am a frontend developer passionate about creating clean, responsive, and user friendly web applications.
             With expertise in TypeScript, Next.js, HTML, CSS, and Tailwind CSS.
           </p>
         </div>
