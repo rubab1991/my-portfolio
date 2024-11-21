@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Projects() {
   return (
     <div id="projects">
-      <p className="text-4xl font-extrabold text-center bg-black py-5" data-aos="flip-right">My Projects</p>
+      <p className="md:text-4xl font-extrabold text-center bg-black py-5" data-aos="flip-right">My Projects</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-10 black py-5" data-aos="zoom-in">
         {/* Project Cards */}
         <Link href="https://birthday-wish-app-ivnf.vercel.app/" className="block max-w-xs border rounded-lg shadow-lg overflow-hidden">

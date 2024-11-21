@@ -10,7 +10,7 @@ export default function Nav() {
 
   return (
     <div className="container pt-1 bg-black max-w-screen-2xl text-white">
-      <div className="flex justify-between items-center space-x-10">
+      <div className="md:flex md:justify-between md:items-center md:space-x-10">
         <Link href="/">
           <Image src="/images/logo.png" width={60} height={60} alt="logo" />
         </Link>
@@ -18,7 +18,7 @@ export default function Nav() {
       </div>
 
       <nav className={`${open ? "block" : "hidden"} lg:flex lg:items-center lg:justify-end w-full`}>
-        <ul className="lg:flex lg:space-x-10 font-bold text-xl mt-2 lg:mt-0 w-full justify-end" data-aos="flip-up" >
+        <ul className="lg:flex lg:space-x-10 font-bold md:text-xl mt-2 lg:mt-0 w-full justify-end" data-aos="flip-up" >
           <li className="hover:text-stone-400 p-1 menuLink"><Link href="/">Home</Link></li>
           <li className="hover:text-stone-400 p-1 menuLink"><Link href="#about">About</Link></li>
           <li className="hover:text-stone-400 p-1 menuLink"><Link href="#projects">Projects</Link></li>

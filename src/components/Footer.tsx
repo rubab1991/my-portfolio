@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className="mt-16 py-6 text-center font-bold text-xl bg-lime-500">
+    <div className=" container mx-auto mt-16 py-6 text-center font-bold text-xl bg-lime-500">
         @ Rubab Bukhari | All right reserved 2024
     </div>
   )
