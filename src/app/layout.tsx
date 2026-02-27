@@ -4,7 +4,6 @@ import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
-
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -17,22 +16,24 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Rubab Bukhari Portfolio",
-  description: "Portfolio showcasing my frontend development projects, skills, and expertise in Next.js and Tailwind CSS",
+  title: "Rubab Bukhari | Frontend Developer & Next.js Specialist",
+  description:
+    "Portfolio of Rubab Bukhari — frontend developer specializing in Next.js, TypeScript, and modern web technologies. View my projects, skills, and get in touch.",
 };
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black text-white`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-dark text-white font-[family-name:var(--font-geist-sans)]`}
       >
-    <Nav />
+        <Nav />
         {children}
-      <Footer />
+        <Footer />
       </body>
     </html>
   );
